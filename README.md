@@ -37,7 +37,7 @@ It provides:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/0xko1.sh-vault.git
+git clone https://github.com/0xko1-git/0xko1.sh-vault.git
 ```
 
 2. Open Obsidian.

@@ -1,0 +1,26 @@
+{
+  "pentest-note-manager:new-note": [
+    {
+      "modifiers": [],
+      "key": "F6"
+    }
+  ],
+  "pentest-note-manager:find-note": [
+    {
+      "modifiers": [],
+      "key": "F7"
+    }
+  ],
+  "pentest-note-manager:open-home": [
+    {
+      "modifiers": [],
+      "key": "F8"
+    }
+  ],
+  "graph:open-local": [
+    {
+      "modifiers": [],
+      "key": "F9"
+    }
+  ]
+}

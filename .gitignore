@@ -1,0 +1,11 @@
+# Obsidian per-user/runtime state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~

@@ -4,6 +4,38 @@ A minimal Obsidian vault template for organizing penetration testing notes with 
 
 The vault is intentionally empty and contains only the structure, templates, and configuration required to start building a pentesting knowledge base.
 
+## Screenshots
+
+### Vault home
+
+The home dashboard acts as the main entry point to the pentesting library. It provides quick access to notes, playbooks, labs, filters, and the automatically generated knowledge graph.
+
+There are multiple ways to navigate the vault. Press `F7` to quickly search for a pentest note by title, alias, area, service, tool, or other metadata.
+
+You can also use the search field and filters directly in the library table below. This is useful when you want to browse the vault manually or narrow down notes by type, area, service, tool, status, or related metadata without using a keyboard shortcut.
+
+![Vault home](assets/screenshots/home.png)
+
+### Graph-based navigation
+
+In addition to traditional search, the vault can also be explored visually through Obsidian's Local Graph.
+
+Press `F9` while viewing a note to open its Local Graph on the right side. The graph shows the current note together with its related topics, areas, techniques, services, tools, and other connected notes.
+
+This makes it possible to move through the knowledge base by following relationships instead of relying only on folders or search. It is especially useful when exploring a topic and discovering related techniques or notes that may be relevant to what you are currently working on.
+
+![Note relationships](assets/screenshots/cme.png)
+
+### Automatic graph hubs
+
+Pentest Note Manager automatically creates graph hubs for note types, areas, services, tools, and other metadata.
+
+For example, the `Type - Tools` hub connects all notes classified as tools, providing a visual overview of the tools stored in the vault and making larger collections easier to explore.
+
+These hubs are generated automatically and form an additional navigation layer across the knowledge base.
+
+![Tool graph hub](assets/screenshots/type-tools.png)
+
 ## Structure
 
 ```text

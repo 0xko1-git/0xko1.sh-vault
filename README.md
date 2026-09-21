@@ -1,8 +1,13 @@
 # 0xko1.sh Pentest Notes Vault
 
-A minimal Obsidian vault template for organizing penetration testing notes with the included **Pentest Note Manager** plugin.
-
-The vault is intentionally empty and contains only the structure, templates, and configuration required to start building a pentesting knowledge base.
+> [!NOTE]
+> This repository contains an empty starter vault intended for building your own pentesting knowledge base.
+>
+> It includes the folder structure, templates, configuration, and Pentest Note Manager plugin, but does not include my personal pentesting notes.
+>
+> For obvious privacy and security reasons, my own notes, research, engagement data, credentials, targets, lab documentation, and other private material are not included.
+>
+> The vault provides the structure and tooling needed to create and organize your own notes.
 
 ## Screenshots
 
@@ -10,31 +15,51 @@ The vault is intentionally empty and contains only the structure, templates, and
 
 The home dashboard acts as the main entry point to the pentesting library. It provides quick access to notes, playbooks, labs, filters, and the automatically generated knowledge graph.
 
-There are multiple ways to navigate the vault. Press `F7` to quickly search for a pentest note by title, alias, area, service, tool, or other metadata.
+You can search the library directly from the table below using the search field and filters, or press `F7` to quickly find a specific pentest note.
 
-You can also use the search field and filters directly in the library table below. This is useful when you want to browse the vault manually or narrow down notes by type, area, service, tool, status, or related metadata without using a keyboard shortcut.
+For graph-based navigation, press `F9` while on the HOME note to open the Local Graph on the right side.
+
+From there, you can navigate the vault visually by clicking directly on graph nodes. For example, selecting the `Type - Tools` node opens the automatically generated hub containing all notes classified as tools.
 
 ![Vault home](assets/screenshots/home.png)
 
-### Graph-based navigation
+### Type - Tools hub
 
-In addition to traditional search, the vault can also be explored visually through Obsidian's Local Graph.
+The `Type - Tools` hub is generated automatically by Pentest Note Manager and groups together every note classified as a tool.
 
-Press `F9` while viewing a note to open its Local Graph on the right side. The graph shows the current note together with its related topics, areas, techniques, services, tools, and other connected notes.
+When you open this node from the graph, the Local Graph updates and shows all tools connected to that category.
 
-This makes it possible to move through the knowledge base by following relationships instead of relying only on folders or search. It is especially useful when exploring a topic and discovering related techniques or notes that may be relevant to what you are currently working on.
+This allows you to browse the tool collection visually instead of searching through folders or note lists.
 
-![Note relationships](assets/screenshots/cme.png)
-
-### Automatic graph hubs
-
-Pentest Note Manager automatically creates graph hubs for note types, areas, services, tools, and other metadata.
-
-For example, the `Type - Tools` hub connects all notes classified as tools, providing a visual overview of the tools stored in the vault and making larger collections easier to explore.
-
-These hubs are generated automatically and form an additional navigation layer across the knowledge base.
+From here, you can select a specific tool node, such as `CrackMapExec`, and continue navigating deeper into the knowledge base.
 
 ![Tool graph hub](assets/screenshots/type-tools.png)
+
+### Tool relationships
+
+After selecting a specific tool such as `CrackMapExec`, the Local Graph changes again and displays the notes directly related to that tool.
+
+These relationships can include techniques, enumeration methods, credential attacks, execution methods, Active Directory topics, and other notes that reference or use the selected tool.
+
+This creates a natural navigation flow through the vault:
+
+`HOME` → `Type - Tools` → `CrackMapExec` → related notes
+
+Instead of relying only on folders or search, you can explore the knowledge base by following relationships between topics, tools, techniques, services, and other notes.
+
+![CrackMapExec relationships](assets/screenshots/cme.png)
+
+### Creating a new pentest note
+
+Press `F6` to create a new pentest note using the Pentest Note Manager plugin.
+
+The creation form lets you define the note title, type, status, areas, platforms, services, tools, related notes, aliases, and other metadata.
+
+Once the note is created, the appropriate template is inserted automatically and the note is immediately ready for writing.
+
+Pentest Note Manager also takes care of the underlying structure automatically. Graph hubs, metadata relationships, tool and service connections, and related-note links are generated from the information provided in the form, so you do not have to maintain these connections manually.
+
+![Create new pentest note](assets/screenshots/new-note.png)
 
 ## Structure
 

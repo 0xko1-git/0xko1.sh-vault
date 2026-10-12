@@ -1,0 +1,46 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Obsidian runtime/session state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/logs/
+.trash/
+
+# Pentest Note Manager backups
+.obsidian/pnm-backups/
+.obsidian/pnm-*-backup-*/
+.obsidian/plugins/pentest-note-manager-ui-backup-*/
+
+# Do not commit downloaded community plugins.
+# Keep only the custom plugin shipped with this repository.
+.obsidian/plugins/*
+!.obsidian/plugins/pentest-note-manager/
+!.obsidian/plugins/pentest-note-manager/**
+
+# Generated graph hubs can be rebuilt automatically.
+_System/Graph/Areas/*.md
+!_System/Graph/Areas/.gitkeep
+_System/Graph/Types/*.md
+!_System/Graph/Types/.gitkeep
+
+# PUBLIC-REPO SAFETY:
+# Do not publish real assessments, evidence, loot, credentials or archives.
+40. Pentests/*
+!40. Pentests/.gitkeep
+
+80 Attachments/*
+!80 Attachments/.gitkeep
+
+99 Archive/*
+!99 Archive/.gitkeep
+
+# Personal/private vault additions commonly used outside this starter
+Recovery Codes*
+TaskNotes/
+_Private/
+Private/

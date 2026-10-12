@@ -1,0 +1,40 @@
+{
+  "pentest-note-manager:open-manager": [
+    {
+      "modifiers": [],
+      "key": "F6"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "pentest-note-manager:find-note": [
+    {
+      "modifiers": [],
+      "key": "F7"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "pentest-note-manager:open-home": [
+    {
+      "modifiers": [],
+      "key": "F8"
+    }
+  ],
+  "graph:open-local": [
+    {
+      "modifiers": [],
+      "key": "F9"
+    }
+  ]
+}
